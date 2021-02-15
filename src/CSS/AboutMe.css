@@ -1,0 +1,159 @@
+.grid {
+	position: relative;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url("../Font/Nexa\ Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: bold;
+    src: url("../Font/Nexa\ Bold.otf") format("opentype");
+}
+
+@font-face{
+    font-family: 'HelveticaNeue';
+    src: url("../Font/HelveticaNeue Light.ttf") format('truetype');
+}
+
+.AboutFont {
+    font-family: HelveticaNeue;
+    text-align: left;  
+}
+
+.mainfont {
+    font-family: Nexa;
+}
+
+.aboutmaxwidth {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 50px !important;
+    float: left;
+}
+
+.photoPadding {
+    padding-left: 40px;
+}
+
+.titlefontsize {
+    font-size: 2.5rem;
+}
+
+.bodyfontsize {
+    font-size: 1.5rem !important;
+}
+
+.aboutimagespacing {
+    margin-bottom: 100px;
+    margin-top: 120px
+}
+
+.leftfadein {
+    animation: right_to_left 4s ease;
+}
+
+.rightfadein {
+    text-align: left;
+    animation: left_to_right 4s ease;
+    margin-top: 10% !important;
+    padding-left: 50px;
+  }
+
+@keyframes right_to_left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+  
+  @keyframes left_to_right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+
+@media only screen 
+and (max-width: 640px){
+  .body {
+      width: 100%;
+    }
+    .MainImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutmaxwidth {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 50px !important;
+        float: left !important;
+    }
+
+    .photoPadding {
+        padding: 0px;
+    }
+
+    .titlefontsize {
+        font-size: 1.5rem !important;
+        line-height: 25px;
+    }
+
+    .bodyfontsize {
+        font-size: 1.0rem !important;
+        line-height: 25px;
+    }
+
+    .aboutimagespacing {
+        margin-bottom: 30px;
+        margin-top: 120px
+    }
+}
+
+@media only screen 
+and (min-width: 641px)
+and (max-width: 1200px){
+  .body {
+      width: 100%;
+    }
+    .MainImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutmaxwidth {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 50px !important;
+        float: left !important;
+    }
+
+    .photoPadding {
+        padding: 0px !important;
+    }
+
+    .titlefontsize {
+        font-size: 2.5rem !important;
+        line-height: 50px;
+    }
+
+    .bodyfontsize {
+        font-size: 1.5rem !important;
+        line-height: 40px;
+    }
+
+    .aboutimagespacing {
+        margin-bottom: 30px;
+        margin-top: 120px
+    }
+}

@@ -1,0 +1,137 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 15px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.navItem{
+  float: left;
+  text-decoration: none;
+}
+
+.floatRight {
+	float: right;
+}
+
+.navmaxWidth{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+  }
+  .logo{
+	width: 215px; 
+	height: 65px; 
+	alt: "Logo";
+	float: left;
+	margin-left: 50px;
+  }
+
+  .rodal-close {
+	  width: 60px;
+	  height: 60px;
+	  margin-right: 10px;
+   	  margin-top: 10px;
+  }
+  
+  .navText {
+	color: #8e8b8b;
+    font-size: 13px;
+  }
+  
+  @media only screen and (max-width: 640px){
+      .MainImage{
+          width: 100%;
+          height: auto;
+      }
+      .navmaxWidth{
+        width: 100%;
+		margin: auto;
+		background-color: white;
+		padding: 0 !important;
+   		
+	  }
+	  .logo{
+		width: 120px; 
+		height: 35px; 
+		alt: "Logo";
+		float: left;
+		margin-left: 10px;
+	  }
+
+	  .floatRight {
+		float: right;
+	  }
+	  .buttonpadding {
+		margin-right: 20px;
+	}	
+	.rodal-close {
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+		margin-top: -5px;
+	}
+
+}
+	  
