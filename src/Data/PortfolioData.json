@@ -107,5 +107,15 @@
             {"Path":"/images/CFO_mobisite/Mobisite_agenda-page.jpg", "imageText": ""},
             {"Path":"/images/CFO_mobisite/Mobisite_speaker-page.jpg", "imageText": ""}
         ]       
+    },
+    {
+        "name": "HealthUp",
+        "images":[
+            {"Path":"/images/HealthUp/Health-up_01.jpg"},
+            {"Path":"/images/HealthUp/Health-up_02.jpg"},
+            {"Path":"/images/HealthUp/Health-up_03.jpg"},
+            {"Path":"/images/HealthUp/Health-up_04.jpg"},
+            {"Path":"/images/HealthUp/Health-up_05.jpg"}                      
+        ]       
     }
 ]

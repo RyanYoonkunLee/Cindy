@@ -72,12 +72,8 @@ export default class Portfolio extends Component {
                                                 }
                                                 else{
                                                     return <FadeInSection key={image}>
-                                                        <div className="popuptextmargin">
-                                                            <img className="marginbottom" alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image.Path}></img>  
-                                                            <div className="textBold textStyleBody">{image.imageHeading} <a href={image.link} target="_blank" rel="noopener noreferrer">{image.link}</a></div>
-                                                            <div className="textStyleBody">{image.imageText}</div>       
-                                                            <div className="textStyleBody">{image.imageText1}</div>
-                                                            <div className="textStyleBody">{image.imageText2}</div>                                                                                                             
+                                                        <div className="">
+                                                            <img alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image.Path}></img>                                                                                                                                                                      
                                                         </div>                                                        
                                                     </FadeInSection>                                                    
                                                 }                                                                                  
@@ -94,7 +90,6 @@ export default class Portfolio extends Component {
         );
     }
 }
-
 const customStyles = {
     display: "block !important",
     overflowY: "auto",   

@@ -11,9 +11,14 @@
         
     },
     {
-        "id": "2",
-        "name": "LucidStand",
-        "image": "/images/MainPage/Thumbnail2.jpg"
+        "id": "7",
+        "name": "HealthUp",
+        "image": "/images/MainPage/Thumbnail8.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Virtual Event Platform",
+        "image": "/images/MainPage/Thumbnail7.jpg"
     },
     {
         "id": "3",
@@ -26,13 +31,13 @@
         "image": "/images/MainPage/Thumbnail4.jpg"
     },
     {
+        "id": "2",
+        "name": "LucidStand",
+        "image": "/images/MainPage/Thumbnail2.jpg"
+    },
+    {
         "id": "5",
         "name": "Conferenz EDM",
         "image": "/images/MainPage/Thumbnail5.jpg"
-    },
-    {
-        "id": "6",
-        "name": "Mobisite",
-        "image": "/images/MainPage/Thumbnail7.jpg"
-    }
+    }   
 ]
