@@ -11,7 +11,7 @@ export default class AboutMe extends Component {
                             <div>
                                 <h1 className="titlefontsize">Hi I’m Cindy.</h1>
                                 <h1 className="titlefontsize">I love creating, formulating,</h1>
-                                <h1 className="titlefontsize">organising and thinking.</h1>
+                                <h1 className="titlefontsize">organising and thinking!</h1>
                             </div>                           
                             <h4 className="bodyfontsize mt-5">
                                 I am a designer with 7 years’ experience in various industries. While my motto is to ’Stay Creative’, 
